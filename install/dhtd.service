@@ -1,0 +1,9 @@
+[Unit]
+Description=DHT_WebAPI
+
+[Service]
+ExecStart=/opt/DHT_WebAPI/venv/bin/python3 /opt/DHT_WebAPI/app.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
