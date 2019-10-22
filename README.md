@@ -49,5 +49,6 @@ curl localhost:8080/thermohygrometer
 
 ## Note
 
+* DHTセンサーが接続されているGPIOピンの設定はsrc/app.pyのGPIO_PINを編集することで可能。デフォルトはGPIO 4(BCM)
 * Flask内蔵のWebサーバーを利用している為、本格的な運用には向かない。
 * 使用は安全なネットワーク内部に限る。
